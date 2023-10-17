@@ -5,3 +5,5 @@ All the gases used and all the demo etherium used to be deducted from ganache, i
 Each time I create new blocks the blocks get connected to any of the chains present in the Blockchain network..
 ## Setup
 To get started with you need to have ganache installed on the computer that deploys the project and provide the free ethereum connection and the gas prices are been deducted from ganache itself although ganache forms a blockchain as a whole but it can't say everytime you deploy the model you will be connected to the previous block or not.
+<br><br><br>
+You even need to have truffle installed on your system.
