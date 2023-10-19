@@ -11,4 +11,8 @@ Then for the deployment you need to use the `npx truffle mgrate` in order to mig
 Then use the `npx truffle console` to enter the console of the truffle.
 <br><br>
 ### Deploy 
-Finally to deploy the model type `const instance=await SimpleBlockchain.deployed()` in the terminal
+Finally to deploy the model type `const instance=await SimpleBlockchain.deployed()` in the terminal, where my contract name was SimpleBlockchain() that was to be deployed...
+### call the functions required
+`instance.add()` will add all the blocks that are predefined by us to the blockchain in ganache...
+`instance.fusion()` this function call will fuse all the date and give a single data as output that is to be sent to the fusion center.
+
