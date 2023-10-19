@@ -17,3 +17,4 @@ Finally to deploy the model type `const instance=await SimpleBlockchain.deployed
 `instance.findMaliciousUser("0x1001111111111111111111111111111100000000000000000000000111111111")` This will return all the malicious users in the chain where `0x1001111111111111111111111111111100000000000000000000000111111111` this is a user that is considered as a good secondary user...
 `instance.fusion()` this function call will fuse all the date and give a single data as output that is to be sent to the fusion center.
 
+This is just a demo project basesd on blockchain where demo data is used and the CRN data used is also not real it just used a few bit chunk of the data in hexadecimal format.
