@@ -7,3 +7,5 @@ Each time I create new blocks the blocks get connected to any of the chains pres
 To get started with you need to have ganache installed on the computer that deploys the project and provide the free ethereum connection and the gas prices are been deducted from ganache itself although ganache forms a blockchain as a whole but it can't say everytime you deploy the model you will be connected to the previous block or not.
 <br><br><br>
 You even need to have truffle installed on your system.
+Then for the deployment you need to use the `npx truffle mgrate` in order to migrate and deploy the blockchain in your ganache.
+Then use the `npx truffle console` to enter the console of the truffle.
