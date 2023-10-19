@@ -9,3 +9,6 @@ To get started with you need to have ganache installed on the computer that depl
 You even need to have truffle installed on your system.
 Then for the deployment you need to use the `npx truffle mgrate` in order to migrate and deploy the blockchain in your ganache.
 Then use the `npx truffle console` to enter the console of the truffle.
+<br><br>
+### Deploy 
+Finally to deploy the model type `const instance=await SimpleBlockchain.deployed()` in the terminal
